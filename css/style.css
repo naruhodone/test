@@ -1,0 +1,89 @@
+/* navigation */
+
+nav {
+  background-color: black;
+  padding-left;
+  30px;
+  padding-right: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  float: right;
+  margin-top: 50px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+/* header */
+header {
+  height: 500px;
+  background: black url(../images/header-bg.jpg) center no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 140px;
+}
+
+header a, article a, .clients a {
+  color: white;
+  text-decoration: none;
+  background-color: #1bbc9b;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.features {
+  text-align: center;
+  padding: 30px;
+}
+
+.features article {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+.mockup {
+  clear: both;
+  background: black url(../images/mockup-bg.jpg) center no-repeat;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  background-attachment: fixed;
+}
+
+.clients, footer {
+  text-align: center;
+  background-color: #1bbc9b;
+  color: white;
+  padding: 30px 0;
+}
+
+.clients ul, footer ul {
+  padding-left: 0;
+}
+
+.clients ul li, footer ul li {
+  display: inline;
+}
+
+.clients a {
+  background: white;
+  color: #1bbc9b;
+}
+
+footer {
+  background: black;
+}
